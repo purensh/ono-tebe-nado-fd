@@ -1,1 +1,203 @@
 /* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px 50px;
+
+
+}
+
+.menu {
+
+}
+
+.menu-list {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+}
+
+.menu-item {
+
+}
+
+.header-logo {
+    width: 148px;
+    height: 105px;
+}
+
+.header-logo-image {
+
+}
+
+.address {
+    display: flex;
+    max-width: 240px;
+    justify-self: end;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cover {
+    position: relative;
+    min-height: 757px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+
+}
+
+.cover__title {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 30px;
+    line-height: 1.15;
+}
+
+.aligned-text {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.aligned-text_left {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 165px;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.cover__description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 3;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 106px;
+    gap: 107px;
+}
+
+.cover__description-text {
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.bet-button {
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 12px 32px 11px 31px;
+    
+}
+
+.lots {
+    
+}
+
+.lots__heading {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 180px;
+    margin-left: 64px;
+    margin-right: 915px;
+
+}
+
+.lots__card-list {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+
+.lots__card-list-item {
+    width: 334px;
+    min-height: 596px;
+
+}
+
+.card-link {
+    height: 100%;
+}
+
+.card {
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_type_film {
+    background-image: url("../images/card-lot-01.jpg");
+}
+
+.card__title {
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    z-index: 3;
+    margin-top: 48px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card__text {
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    z-index: 3;
+    margin-bottom: 48px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card_type_book {
+    background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+    background-image: url("../images/card-lot-03.jpg");
+}
+
+.lots__look-more-link {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.about {
+    
+}
+
+
+
