@@ -196,6 +196,9 @@
 }
 
 .about {
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    gap: 72px;
 
 }
 
@@ -204,7 +207,11 @@
 }
 
 .about__logo {
-    
+
+}
+
+.about__text {
+
 }
 
 
