@@ -10,18 +10,18 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-
+    
     <header class="header">
-      <nav class="menu"> <!-- меню -->
-        <ul class="menu-list">
-          <li class="menu-item">
-            <a>главная</a>
+      <nav class="header__menu"> <!-- меню -->
+        <ul class="header__links-list">
+          <li class="menu-item header__links-list-item_no-bullit">
+            <a class="header__link header__link_active">главная</a>
           </li>
           <li class="menu-item">
-            <a href="#lots">посмотреть лоты</a>
+            <a class="header__link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="menu-item">
-            <a href="#about">об аукционе</a>
+            <a class="header__link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav> 
@@ -33,9 +33,9 @@
          src="./images/logo-black.svg">
       </a>        
 
-      <address class="address"> <!-- контактная информация -->
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <address class="address header__address"> <!-- контактная информация -->
+          <a class="header__address__link" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="header__address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
@@ -54,7 +54,7 @@
         </div>
       </section>
 
-      <section class="lots">
+      <section class="lots" id="lots">
         <h1 class="lots__heading">Лоты</h1>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
@@ -93,14 +93,16 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link">посмотреть больше</a>
+        <div class="lots__look-more">
+          <a class="lots__look-more-link">посмотреть больше</a>
+        </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="about__column">
           <div class="about__logo">
             <img 
-            class="section"
+            class="about__logo-image"
             alt="Лого"
             src="./images/logo-white.svg">
           </div> 
@@ -125,43 +127,41 @@
     </main>
 
     <footer class="footer">
-     <address> <!-- контактная информация -->
-        <ul>
-          <li>
-            <a>+9 999 555 5555</a>
-          </li>
-          <li>
-            <a>info@sobaka.ge</a>
-          </li>
-          <li>
-            наб. Принсенграхт 263-265, Амстердам
-          </li>
-        </ul>
+     <address class="address "> <!-- контактная информация -->
+        <a class="footer__address__link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="footer__address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p> наб. Принсенграхт 263-265, Амстердам</p>
       </address>
 
-      <nav> <!-- меню -->
-        <ul>
-          <li>
-            <a>главная</a>
+      <nav class="footer__menu"> <!-- меню -->
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link footer__menu-link_active">главная</a>
           </li>
-          <li>
-            <a>посмотреть лоты</a>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
           </li>
-          <li>
-            <a>об аукционе</a>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav> 
 
-      <ul> <!--список ссылок на соцсети-->
-        <li>
-          <a><img src="./images/yt.svg"></a>
+      <ul class="footer__social-list"> <!--список ссылок на соцсети-->
+        <li class="footer__social-list-item">
+          <a class="footer__social-link">
+            <img class="footer__social-icon" src="./images/yt.svg">
+          </a>
         </li>
         <li>
-          <a><img src="./images/vk.svg"></a>
+          <a class="footer__social-link">
+            <img class="footer__social-icon" src="./images/vk.svg">
+          </a>
         </li>
         <li>
-          <a><img src="./images/pinterest.svg"></a>
+          <a class="footer__social-link">
+            <img class="footer__social-icon" src="./images/pinterest.svg">
+          </a>
         </li>
       </ul>
     </footer>
