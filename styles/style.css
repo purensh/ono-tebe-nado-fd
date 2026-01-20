@@ -6,18 +6,11 @@
     padding: 92px 50px 96px 50px;
 }
 
-.header__menu {
-
-}
 
 .header__links-list {
     display: flex;
     gap: 32px;
     list-style: circle;
-}
-
-.menu-item {
-
 }
 
 .header__link {
@@ -36,10 +29,6 @@
 .header-logo {
     width: 148px;
     height: 105px;
-}
-
-.header-logo-image {
-
 }
 
 .address {
@@ -226,10 +215,6 @@
     gap: 25px;
 }
 
-.about__column {
-
-}
-
 .about__logo {
     height: 240px;
     width: 240px;
@@ -306,14 +291,6 @@
     justify-content: end;
     gap: 48px;
     list-style: none;
-}
-
-.footer__social-list-item {
-
-}
-
-.footer__social-link {
-
 }
 
 .footer__social-icon {
